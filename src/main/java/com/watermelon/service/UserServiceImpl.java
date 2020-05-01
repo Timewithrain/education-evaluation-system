@@ -36,7 +36,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getUserByName(String name) {
         User user = userMapper.getUserByName(name);
-        System.out.println(user.getRoleId());
         return user;
     }
 
@@ -47,6 +46,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int updateUser(User user) {
+        User user1 = userMapper.getUserById(user.getId());
+        if (user1==null){
+            return -1;
+        }
         return userMapper.updateUser(user);
     }
 

@@ -2,6 +2,7 @@ package com.watermelon.controller;
 
 import com.watermelon.entity.User;
 import com.watermelon.mapper.UserMapper;
+import com.watermelon.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,12 +16,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private UserMapper userMapper;
-
-    @RequestMapping("/add")
-    public String add() {
-        return "/user/add";
-    }
+    private UserService userService;
 
     @RequestMapping("/update")
     public String update() {
@@ -32,13 +28,4 @@ public class UserController {
         return "/user/view";
     }
 
-    @ResponseBody
-    @GetMapping("/list")
-    public List<User> listUser() {
-        List<User> list = userMapper.listUser();
-        for (User user : list) {
-            System.out.println(user);
-        }
-        return list;
-    }
 }

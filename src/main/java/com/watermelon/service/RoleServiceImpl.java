@@ -55,12 +55,18 @@ public class RoleServiceImpl implements RoleService {
 
     @Override
     public void addRole(Role role) {
-        roleMapper.addRole(role);
+        Role r = roleMapper.getRoleById(role.getId());
+        if (r==null){
+            roleMapper.addRole(role);
+        }
     }
 
     @Override
     public void updateRole(Role role) {
-        roleMapper.updateRole(role);
+        Role r = roleMapper.getRoleById(role.getId());
+        if (r!=null){
+            roleMapper.updateRole(role);
+        }
     }
 
     @Override
