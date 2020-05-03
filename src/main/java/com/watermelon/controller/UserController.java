@@ -18,7 +18,12 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/update")
+    @GetMapping("/add")
+    public String add() {
+        return "/user/add";
+    }
+
+    @GetMapping("/update")
     public String update() {
         return "/user/update";
     }
