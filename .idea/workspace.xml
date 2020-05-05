@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4351343-8dd4-456c-b15c-e5ddc34bc82c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/project.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watermelon/config/LogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/watermelon/entity/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educational-evaluation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/educational-evaluation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/watermelon/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/watermelon/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/permissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/permissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/roleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/roleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +149,8 @@
       <workItem from="1588473617219" duration="2800000" />
       <workItem from="1588487709698" duration="30000" />
       <workItem from="1588513082005" duration="536000" />
-      <workItem from="1588606027673" duration="544000" />
+      <workItem from="1588606027673" duration="634000" />
+      <workItem from="1588667189174" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="evaluation v0.0.1 des:project structure complete">
       <created>1586964820663</created>
@@ -221,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588513610391</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="evaluation v0.0.10 des:basic log function import,log level:info">
+      <created>1588606645784</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588606645784</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +241,8 @@
     <MESSAGE value="evaluation v0.0.7 des:add Student Teacher Admin entity,add basic admin function" />
     <MESSAGE value="evaluation v0.0.8 des:add Role Permission manage function of admin" />
     <MESSAGE value="evaluation v0.0.9 des:Swagger Api document import" />
-    <option name="LAST_COMMIT_MESSAGE" value="evaluation v0.0.9 des:Swagger Api document import" />
+    <MESSAGE value="evaluation v0.0.10 des:basic log function import,log level:info" />
+    <option name="LAST_COMMIT_MESSAGE" value="evaluation v0.0.10 des:basic log function import,log level:info" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588257001721">
@@ -255,10 +257,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1587621347012" />
-    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1588513607366">
+    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1588606642684">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1588513607366" />
+    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1588606642683" />
     <state x="321" y="186" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1588220908068">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -271,38 +273,38 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="421" y="136" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1588487734089" />
-    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1588606535099">
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1588606661904">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588606535099" />
-    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1588606535099">
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588606661904" />
+    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1588606661904">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588606535099" />
-    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1588606535099">
+    <state width="1238" height="210" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588606661904" />
+    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1588606661903">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588606535099" />
-    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1588606535099">
+    <state width="1238" height="210" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588606661903" />
+    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1588606661904">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588606535099" />
-    <state width="1238" height="210" key="GridCell.Tab.1.bottom" timestamp="1588606535101">
+    <state width="1238" height="210" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588606661904" />
+    <state width="1238" height="210" key="GridCell.Tab.1.bottom" timestamp="1588606661905">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588606535101" />
-    <state width="1238" height="210" key="GridCell.Tab.1.center" timestamp="1588606535100">
+    <state width="1238" height="210" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588606661905" />
+    <state width="1238" height="210" key="GridCell.Tab.1.center" timestamp="1588606661904">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1588606535100" />
-    <state width="1238" height="210" key="GridCell.Tab.1.left" timestamp="1588606535100">
+    <state width="1238" height="210" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1588606661904" />
+    <state width="1238" height="210" key="GridCell.Tab.1.left" timestamp="1588606661904">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1588606535100" />
-    <state width="1238" height="210" key="GridCell.Tab.1.right" timestamp="1588606535100">
+    <state width="1238" height="210" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1588606661904" />
+    <state width="1238" height="210" key="GridCell.Tab.1.right" timestamp="1588606661904">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="210" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1588606535100" />
+    <state width="1238" height="210" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1588606661904" />
     <state width="1238" height="236" key="GridCell.Tab.2.bottom" timestamp="1587657147928">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
